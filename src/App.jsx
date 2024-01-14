@@ -1,9 +1,7 @@
+import GameWrapper from './components/game-wrapper';
+
 function App() {
-  return (
-    <>
-      <p className='text-3xl text-blue-800'>Hello</p>
-    </>
-  );
+  return <GameWrapper />;
 }
 
 export default App;
